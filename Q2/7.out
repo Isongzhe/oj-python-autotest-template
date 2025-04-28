@@ -1,0 +1,13 @@
+[[30 22 22 25 42 11]
+ [27 18 21 32 28 49]
+ [31 46 28 29 29 17]]
+The mean for the matrix is: 28.17
+The mean for row 0 is: 25.33
+The mean for row 1 is: 29.17
+The mean for row 2 is: 30.00
+The mean for column 0 is: 29.33
+The mean for column 1 is: 28.67
+The mean for column 2 is: 23.67
+The mean for column 3 is: 28.67
+The mean for column 4 is: 33.00
+The mean for column 5 is: 25.67

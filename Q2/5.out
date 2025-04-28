@@ -1,0 +1,13 @@
+[[36 42 23 11 29 24]
+ [45 29 14 48 34 22]
+ [49 12 12 36 37 22]]
+The mean for the matrix is: 29.17
+The mean for row 0 is: 27.50
+The mean for row 1 is: 32.00
+The mean for row 2 is: 28.00
+The mean for column 0 is: 43.33
+The mean for column 1 is: 27.67
+The mean for column 2 is: 16.33
+The mean for column 3 is: 31.67
+The mean for column 4 is: 33.33
+The mean for column 5 is: 22.67
