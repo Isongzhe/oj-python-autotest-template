@@ -1,6 +1,7 @@
-# Local Online Judge Test Automation
+# OJ Python Judge Helper
 
-This project provides a local test automation framework for running and validating programming problem solutions using official Online Judge (OJ) test cases. It is designed for teaching assistants, students, and anyone who wants to batch test their code locally before submitting to an OJ platform.
+A local batch testing and judging tool for Online Judge (OJ) problems, designed for TAs, problem setters, and students.  
+Easily manage test cases, debug solutions, and generate detailed feedback without uploading to the OJ platform.
 
 ## Features
 
@@ -24,6 +25,8 @@ Lab/
 │   └── ...
 ├── Q4/
 │   └── ...
+├── Q5/
+│   └── ...
 ├── q1.py
 ├── q2.py
 ├── q3.py
@@ -35,35 +38,38 @@ Lab/
 └── ...
 ```
 
-- `Q1/`, `Q2/`, ...: Folders containing input/output test cases for each problem.
+- `Q1/`, `Q2/`, ...: Folders containing input/output test cases for each problem (can extend to `Q5/`, `Q6/` as needed).
 - `q1.py`, `q2.py`, ...: Your solution scripts.
 - `test_q1.py`, `test_q2.py`, ...: Pytest scripts for automated testing.
 
 ## Usage
 
-1. **Install dependencies:**
-1. Install Python 3 (if not already installed).
-2. Install dependencies:
+1. **Install Python 3 (if not already installed).**
+2. **Install dependencies:**
     ```sh
     pip install -r requirements.txt
     ```
+    or
+    ```sh
+    pip install pytest loguru
+    ```
     (You need `pytest` and `loguru`.)
 
-2. **Add your solution and test cases:**
+3. **Add your solution and test cases:**
     - Place your solution (e.g., `q1.py`) in the root directory.
     - Place test cases in the corresponding folder (e.g., `Q1/1.in`, `Q1/1.out`).
 
-3. **Run all tests:**
+4. **Run all tests:**
     ```sh
     pytest -v
     ```
 
-4. **Run a single test file:**
+5. **Run a single test file:**
     ```sh
     pytest -v test_q1.py
     ```
 
-5. **See detailed logs:**
+6. **See detailed logs:**
     - Use the `-s` flag to show print/log output:
       ```sh
       pytest -v -s
